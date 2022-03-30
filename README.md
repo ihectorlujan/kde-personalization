@@ -56,4 +56,4 @@ This are problems that I experimented and solved around of two years being linux
 | ---------- | ------------------------- | ------------------------------------------- |
 | Latte Dock | Don't start on startup    | Disable clipboard on the system-tray widget |
 | Latte Dock | Runs very slowly on start | Use Wayland for every session.              |
-| Latte Dock |                           |
+| Latte Dock | as                        |
