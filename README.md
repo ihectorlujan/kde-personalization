@@ -19,7 +19,9 @@ Let's to confirm we are ready to start!
 ```
 sudo apt update
 sudo pkcon update
+
 sudo apt install git
+sudo apt install zsh
 ```
 
 ### List of applications necessaries.
@@ -29,6 +31,7 @@ sudo apt install git
 | Latte Dock      | https://github.com/KDE/latte-dock                      |
 | Kvantum Manager | https://github.com/tsujan/Kvantum/tree/master/Kvantum  |
 | ZSH             | https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH |
+| oh-my-zsh       |                                                        |
 
 ### List of applets/widgets necessaries.
 
