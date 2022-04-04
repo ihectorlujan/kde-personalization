@@ -55,8 +55,8 @@ sudo apt install zsh
 **Possible problems.**  
 This are problems that I experimented and solved around of two years being linux user. If you don't found the problem on the list below, you should be solve the problem searching on Google, this help you to strengthen your knowledge.
 
-| Aplication | Problem                   | How to solve it!                            |
-| ---------- | ------------------------- | ------------------------------------------- |
-| Latte Dock | Don't start on startup    | Disable clipboard on the system-tray widget |
-| Latte Dock | Runs very slowly on start | Use Wayland for every session.              |
+| Aplication | Problem                   | How to solve it!                             |
+| ---------- | ------------------------- | -------------------------------------------- |
+| Latte Dock | Don't start on startup    | Disable clipboard on the system-tray widget  |
+| Latte Dock | Runs very slowly on start | Use Wayland for every session or wait for it |
 | Latte Dock | as                        |
