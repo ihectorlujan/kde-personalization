@@ -1,18 +1,18 @@
 # KDE Personalization.
 
-**There are the final result!**
+**Final result!**
 
 ![Final result](Images/finalresult.png)
 
-This personalization was created for my personal computer. I'm currently user of Kubuntu 22.04 but it was originally created for KDE Neon 5.24, some commands could be a little different that others S.O. like Manjaro, however you can get this personalization for any distribution with KDE.
+This personalization was created for my personal computer. I'm currently user of Kubuntu 22.04 but it was originally created for KDE Neon 5.24, some commands could be a little different that others O.S. like Manjaro, however you can get this personalization for any distribution with KDE.
 
 I have two monitors, so you can extends the personalization for more monitors or use in only one.
 
-#### **System specs**
+**System specs**
 
 ![Neofetch](Images/neofetch-kubuntu.png)
 
-**Note:** If you had some knowledge of linux and how to install packages from GitHub skip to the end section, over there you find all applications used for this personalization.
+**Note:** If you had some knowledge of linux and how to install packages from GitHub skip to the [`Applications, Applets, Widgets and Stuff`](#applications-applets-widgets-and-stuff), over there you find all applications used for this personalization.
 
 ## First steps
 
@@ -87,21 +87,73 @@ sudo apt install qt5-style-kvantum qt5-style-kvantum-themes
 6. Settings > Appearance > Icons > Get New Icons.
    Search, download and install "Papirus".
 
+**The next step only will works fine on 1920x1080 screens, if you have other resolution I recommend skip this step and make your own configuration**
+
+7. Settings > Window Management > Window Rules.  
+   Select "Import" option and apply this [.kwinrule](https://drive.google.com/file/d/1leGLKyBTtwPV4wUPO6lW4NnOdQhbZmIB/view?usp=sharing)
+
 ## ZSH and Oh My Zsh installation.
 
-1. On terminal run this:
+**ZSH installation:**
 
-   > sudo apt install zsh
+1. On terminal run this
+
+```
+sudo apt install zsh
+```
 
 2. After this verify installation running
 
-   > zsh --version
+```
+zsh --version
+```
 
 3. If the installation are successfully you can get your version. Now let's make it your default shell:
 
-> chsh -s $(which zsh)
+```
+chsh -s $(which zsh)
+```
 
 4. Log out and log back in again to use your new default shell.
+
+**Oh My Zsh installation:**
+
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+**Theme installation:**  
+After this you can personalize your terminal with [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) made by the zsh community, you can install any theme following the instructions of each.
+
+My favorite theme is [Spaceship](https://github.com/spaceship-prompt/spaceship-prompt) so we will use this for now.
+
+First clone this repository:
+
+```
+git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+```
+
+Make symlink spaceship.zsh-theme to your oh-my-zsh custom themes directory:
+
+```
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+```
+
+**Set ZSH_THEME="spaceship" in your .zshrc**
+All configurations about zsh and oh-my-zsh are in .zshrc file, it's simple change it but you should be careful
+
+```
+sudo nano ~/.zshrc
+```
+
+Your .zshrc file should look like this, you can remove all comments in this file but I recommend leaving it.
+
+![.zshrc file](Images/dot-zshrc.png)
+
+### Konsole profile and colorscheme.
+
+You can configure the terminal scheme with this colors.
+![Terminal palette](Images/TerminalPalette.png)
 
 ## Applications, Applets, Widgets and Stuff.
 
@@ -131,9 +183,6 @@ sudo apt install qt5-style-kvantum qt5-style-kvantum-themes
 | Complement         | Repository                                 |
 | ------------------ | ------------------------------------------ |
 | Cascadia Code Font | https://github.com/microsoft/cascadia-code |
-
-You can configure the terminal scheme with this colors.
-![Terminal palette](Images/TerminalPalette.png)
 
 ## **Possible problems.**
 
