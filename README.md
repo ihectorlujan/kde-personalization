@@ -24,7 +24,6 @@ sudo pkcon update
 
 sudo apt install git
 sudo apt install curl
-sudo apt install zsh
 ```
 
 ## Latte Dock GitHub installation.
@@ -87,6 +86,22 @@ sudo apt install qt5-style-kvantum qt5-style-kvantum-themes
    Search, download and install "Active Accent Frame".
 6. Settings > Appearance > Icons > Get New Icons.
    Search, download and install "Papirus".
+
+## ZSH and Oh My Zsh installation.
+
+1. On terminal run this:
+
+   > sudo apt install zsh
+
+2. After this verify installation running
+
+   > zsh --version
+
+3. If the installation are successfully you can get your version. Now let's make it your default shell:
+
+> chsh -s $(which zsh)
+
+4. Log out and log back in again to use your new default shell.
 
 ## Applications, Applets, Widgets and Stuff.
 
