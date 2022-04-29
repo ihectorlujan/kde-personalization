@@ -152,6 +152,8 @@ Your .zshrc file should look like this, you can remove all comments in this file
 
 ### Konsole profile and colorscheme.
 
+You can download konsole files
+
 You can configure the terminal scheme with this colors.
 ![Terminal palette](Images/TerminalPalette.png)
 
