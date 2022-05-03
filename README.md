@@ -68,7 +68,7 @@ sudo apt install qt5-style-kvantum qt5-style-kvantum-themes
 
 **Execute Kvantum Manager**
 
-1. Click on "Change/Delete" Theme and select "KvArcDark".
+1. Click on "Change/Delete Theme" and select "KvArcDark".
 2. Click on "Configure Active Theme" and mark "Transparent Dolphin View".
 3. Press "Quit"
 
@@ -79,7 +79,7 @@ sudo apt install qt5-style-kvantum qt5-style-kvantum-themes
 2. Settings > Appearance > Application Style.
    Select "kvantum-dark".
 3. Settings > Appearance > Plasma Style > Get New Plasma Style.
-   Search "Arc KDE" uninstall it, press install and select "Arc Color" version (this version allows follows the color scheme).
+   Search "Arc KDE" uninstall it, press install and select "Arc Color" (this version allows follows the color scheme).
 4. Settings > Appearance > Colors.
    Select "Arc Dark" and your preffered color.
 5. Settings > Appearance > Window Decorations > Get New Window Decorations.
@@ -92,6 +92,10 @@ sudo apt install qt5-style-kvantum qt5-style-kvantum-themes
 
 7. Settings > Window Management > Window Rules.  
    Select "Import" option and apply this [.kwinrule](./KwinRules/ihector.kwinrule)
+
+### Install Cascadia Code Font.
+
+Go to the Microsoft Cascadia Code repository and download the [.zip](https://github.com/microsoft/cascadia-code/releases) file, descompress and install all fonts.
 
 ## ZSH and Oh My Zsh installation.
 
