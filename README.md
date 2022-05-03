@@ -83,14 +83,15 @@ sudo apt install qt5-style-kvantum qt5-style-kvantum-themes
 4. Settings > Appearance > Colors.
    Select "Arc Dark" and your preffered color.
 5. Settings > Appearance > Window Decorations > Get New Window Decorations.
-   Search, download and install "Active Accent Frame".
+   Search, download and install "Active Accent Frame".  
+   `You can change the properties of the outline on .local/share/aurorae/themes/ActiveAccentFrame/ActiveAccentFramerc`
 6. Settings > Appearance > Icons > Get New Icons.
    Search, download and install "Papirus".
 
 **The next step only will works fine on 1920x1080 screens, if you have other resolution I recommend skip this step and make your own configuration**
 
 7. Settings > Window Management > Window Rules.  
-   Select "Import" option and apply this [.kwinrule](https://drive.google.com/file/d/1leGLKyBTtwPV4wUPO6lW4NnOdQhbZmIB/view?usp=sharing)
+   Select "Import" option and apply this [.kwinrule](./KwinRules/ihector.kwinrule)
 
 ## ZSH and Oh My Zsh installation.
 
@@ -152,9 +153,7 @@ Your .zshrc file should look like this, you can remove all comments in this file
 
 ### Konsole profile and colorscheme.
 
-You can download konsole files
-
-You can configure the terminal scheme with this colors.
+You can download the [scheme](./KonsoleFiles/ihector.colorscheme) and [profile](./KonsoleFiles/ihector.profile) files, and put it on `.local/share/konsole` or you can configure the terminal scheme manually with this palette.
 ![Terminal palette](Images/TerminalPalette.png)
 
 ## Applications, Applets, Widgets and Stuff.
@@ -178,7 +177,7 @@ You can configure the terminal scheme with this colors.
 | Lock / Logout       | KDE Store                                           |
 | Window Buttons      | https://github.com/psifidotos/applet-window-buttons |
 | Window Gaps         | KDE Store                                           |
-| KDE Rounded Corners | KDE Store                                           |
+| Lightly Shaders     | https://github.com/a-parhom/LightlyShaders          |
 
 ### Other complements.
 

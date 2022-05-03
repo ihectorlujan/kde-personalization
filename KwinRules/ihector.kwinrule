@@ -1,0 +1,112 @@
+[Settings for dolphin]
+Description=Settings for dolphin
+ignoregeometry=true
+ignoregeometryrule=2
+position=12,48
+positionrule=3
+size=1896,1020
+sizerule=3
+types=1
+wmclass=dolphin dolphin
+wmclasscomplete=true
+wmclassmatch=1
+
+[Settings for firefox]
+Description=Settings for firefox
+ignoregeometry=true
+ignoregeometryrule=2
+position=12,48
+positionrule=3
+size=1896,1020
+sizerule=3
+types=1
+wmclass=firefox
+wmclassmatch=1
+
+[Settings for google-chrome]
+Description=Settings for google-chrome
+ignoregeometry=true
+ignoregeometryrule=2
+position=12,48
+positionrule=3
+size=1896,1020
+sizerule=3
+types=1
+wmclass=google-chrome google-chrome
+wmclasscomplete=true
+wmclassmatch=1
+
+[Settings for insomnia insomnia]
+Description=Settings for insomnia insomnia
+position=12,48
+positionrule=3
+size=1896,1020
+sizerule=3
+wmclass=insomnia insomnia
+wmclasscomplete=true
+wmclassmatch=1
+
+[Settings for konsole]
+Description=Settings for konsole
+ignoregeometry=true
+ignoregeometryrule=2
+position=483,300
+positionrule=3
+size=942,504
+sizerule=3
+types=1
+wmclass=konsole
+wmclassmatch=1
+
+[Settings for postman]
+Description=Settings for postman
+ignoregeometry=true
+ignoregeometryrule=2
+position=60,60
+positionrule=3
+size=1800,950
+sizerule=3
+types=1
+wmclass=postman
+wmclassmatch=1
+
+[Settings for spotify]
+Description=Settings for spotify
+ignoregeometry=true
+ignoregeometryrule=2
+position=12,48
+positionrule=2
+size=1896,1020
+sizerule=2
+title=Spotify
+titlematch=1
+types=1
+wmclass=spotify
+wmclassmatch=1
+
+[Settings for systemsettings]
+Description=Settings for systemsettings
+ignoregeometry=true
+ignoregeometryrule=2
+position=12,48
+positionrule=3
+size=1896,1020
+sizerule=3
+types=1
+wmclass=systemsettings systemsettings
+wmclasscomplete=true
+wmclassmatch=1
+
+[Settings for vscode]
+Description=Settings for vscode
+ignoregeometry=true
+ignoregeometryrule=2
+noborder=true
+noborderrule=2
+position=12,48
+positionrule=3
+size=1896,1020
+sizerule=3
+types=1
+wmclass=code
+wmclassmatch=1
