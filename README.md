@@ -182,6 +182,7 @@ You can download the [scheme](./KonsoleFiles/ihector.colorscheme) and [profile](
 | Window Buttons      | https://github.com/psifidotos/applet-window-buttons |
 | Window Gaps         | KDE Store                                           |
 | Lightly Shaders     | https://github.com/a-parhom/LightlyShaders          |
+| Floating Tiles      | https://github.com/nclarius/floating-tiles          |
 
 ### Other complements.
 
